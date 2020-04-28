@@ -1,0 +1,32 @@
+{
+  "name": "platform-sh-demo",
+  "version": "0.1.0",
+  "description": "Platform.sh Demo",
+  "scripts": {
+    "build": "webpack --mode development --config webpack.config.js",
+    "prod": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack"
+  },
+  "keywords": [
+    "webpack",
+    "bootstrap4",
+    "symfony5",
+    "platformsh"
+  ],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raupie/platformsh-demo.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

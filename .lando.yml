@@ -1,0 +1,11 @@
+name: platform.sh-demo
+services:
+    appserver:
+        type: php:7.3
+        via: nginx:1.14
+        database: mariadb:10.4
+        ssl: false
+        webroot: public
+        xdebug: false
+        build:
+            - composer install
